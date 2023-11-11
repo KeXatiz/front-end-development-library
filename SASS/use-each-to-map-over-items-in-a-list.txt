@@ -1,0 +1,22 @@
+<style type='text/scss'>
+  //solution 1
+  @each $color in blue, black, red{
+    .#{$color}-bg {background-color:$color}
+  }
+
+  //solution 2
+  $color: (color1:blue, color2:black, color3:red);
+  @each $key, $color in $color{
+    .#{$color}-bg {background-color:$color}
+  }
+
+
+  div {
+    height: 200px;
+    width: 200px;
+  }
+</style>
+
+<div class="blue-bg"></div>
+<div class="black-bg"></div>
+<div class="red-bg"></div>
