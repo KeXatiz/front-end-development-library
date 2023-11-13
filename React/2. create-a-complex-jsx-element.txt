@@ -1,0 +1,13 @@
+//One important thing to know about nested JSX is that it must return a single element.
+
+const JSX = (
+<div>
+  <h1>h1 hello</h1>
+  <p>p world</p>
+  <ul>
+    <li>hello world</li>
+    <li>hello world</li>
+    <li>hello world</li>
+  </ul>
+</div>
+)
