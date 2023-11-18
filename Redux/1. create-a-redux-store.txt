@@ -1,0 +1,11 @@
+const reducer = (state = 5) => {
+  return state;
+}
+
+// Redux methods are available from a Redux object
+// For example: Redux.createStore()
+// Define the store here:
+const store = Redux.createStore(reducer);
+
+
+//note: Redux is a state management framework that can be used with a number of different web technologies, including React. The Redux store is an object which holds and manages application state. This also means that any time any piece of your app wants to update state, it must do so through the Redux store. The unidirectional data flow makes it easier to track state management in your app.
