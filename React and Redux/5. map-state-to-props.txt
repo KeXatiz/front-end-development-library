@@ -1,0 +1,13 @@
+const state = [];
+
+// Change code below this line
+
+const mapStateToProps = (state) => {
+  return {messages: state}
+}
+
+//Note: Behind the scenes, React Redux uses the store.subscribe() method to implement mapStateToProps().
+// const mapDispatchToProps = () => {}
+
+
+//noted: The Provider component allows you to provide state and dispatch to your React components, but you must specify exactly what state and actions you want. This way, you make sure that each component only has access to the state it needs. 
